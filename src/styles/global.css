@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Sora:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #1f2c44;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id],
+footer[id] {
+  scroll-margin-top: 84px;
+}
+
+h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "Sora", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.25;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c7a93;
+}
+
+button,
+input,
+textarea,
+select,
+a,
+li,
+small,
+span {
+  font-family: "Inter", sans-serif;
+}
+
+button,
+[type="button"],
+[type="submit"] {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  width: min(94%, 1380px);
+  max-width: 1380px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  body,
+  p {
+    font-size: 15px;
+  }
+
+  button,
+  [type="button"],
+  [type="submit"] {
+    font-size: 15px;
+  }
+}
